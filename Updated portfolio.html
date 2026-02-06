@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ketziaya Kanagaraj | Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(-45deg, #000000, #111111, #000000, #1a1a1a);
+      background-size: 600% 600%;
+      animation: bgShift 15s ease infinite;
+      color: #ffffff;
+    }
+
+    @keyframes bgShift {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    header {
+      background-color: #000000;
+      color: white;
+      padding: 4rem 1rem;
+      text-align: center;
+      background-image: url('https://www.transparenttextures.com/patterns/stardust.png');
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.8rem;
+    }
+
+    section {
+      padding: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      color: #ffffff;
+      border-bottom: 2px solid #ffffff;
+      padding-bottom: 0.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .card {
+      background: #1f1b2e;
+      padding: 1.5rem;
+      margin-bottom: 1.5rem;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+      color: white;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    .skills-list i {
+      margin-right: 10px;
+      color: #ffffff;
+    }
+
+    .download-link {
+      background-color: #ffffff;
+      color: #000000;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 1rem;
+      font-weight: bold;
+    }
+
+    .download-link:hover {
+      background-color: #dddddd;
+      color: #000;
+    }
+
+    .tech-logos {
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    .tech-icon {
+      width: 50px;
+      margin: 0 10px;
+      animation: spin 4s linear infinite;
+      animation-play-state: running;
+    }
+
+    .tech-icon:hover {
+      animation-play-state: paused;
+    }
+
+    @keyframes spin {
+      from { transform: rotate(0deg); }
+      to { transform: rotate(360deg); }
+    }
+
+    .profile-pic {
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      border: 3px solid #ffffff;
+      box-shadow: 0 0 20px #ffffff;
+      animation: pulse 4s infinite;
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); box-shadow: 0 0 20px #ffffff; }
+      50% { transform: scale(1.05); box-shadow: 0 0 40px #ffffff; }
+      100% { transform: scale(1); box-shadow: 0 0 20px #ffffff; }
+    }
+
+    pre {
+      background: #2d2a3e;
+      color: #ffffff;
+      padding: 1rem;
+      border-radius: 10px;
+      overflow-x: auto;
+    }
+  </style>
+</head>
+<body>
+
+  <marquee behavior="scroll" direction="left" scrollamount="6" style="background:#000000; color:white; font-weight:bold; padding:10px;">
+    🚀 Welcome to Ketziaya's Portfolio | Python | SQL | JavaScript | HTML | CSS | C | Excel | Power BI
+  </marquee>
+
+  <header>
+    <h1>Ketziaya Kanagaraj</h1>
+    <p>Aspiring Python Developer | SQL Developer | Data Analyst</p>
+  </header>
+
+  <section>
+    <h2>About Me</h2>
+    <div class="card">
+      <div class="row align-items-center">
+        <div class="col-md-8">
+          <p>
+            I’m a B.Sc. Computer Science graduate based in Coimbatore, passionate about entering the IT industry.
+            With a background in US accounting and a focus on Python and data analytics, I’m eager to apply my skills
+            in real-world tech environments.
+          </p>
+        </div>
+        <div class="col-md-4 text-center">
+          <img src="getz.jpg" alt="Ketziaya Kanagaraj" class="profile-pic img-fluid">
+        </div>
+      </div>
+    </div>
+
+    <h2>Skills</h2>
+    <div class="card">
+      <ul class="skills-list">
+        <li><i class="fab fa-python"></i>Python</li>
+        <li><i class="fas fa-database"></i>SQL</li>
+        <li><i class="fas fa-file-excel"></i>Excel</li>
+        <li><i class="fab fa-html5"></i>HTML</li>
+        <li><i class="fab fa-css3-alt"></i>CSS</li>
+        <li><i class="fab fa-js"></i>JavaScript</li>
+        <li><i class="fas fa-c"></i>C Language</li>
+        <li><i class="fas fa-comments"></i>Communication</li>
+        <li><i class="fas fa-lightbulb"></i>Problem-solving</li>
+      </ul>
+
+      <div class="tech-logos">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" class="tech-icon">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" class="tech-icon">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" class="tech-icon">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" class="tech-icon">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="SQL" class="tech-icon">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C Language" class="tech-icon">
+        <img src="https://img.icons8.com/color/48/microsoft-excel-2019--v1.png" alt="Excel" class="tech-icon">
+        
+      </div>
+    </div>
+
+    <h2>Projects</h2>
+    <div class="card">
+      <h3>Quiz App – Python (Tkinter)</h3>
+      <p>Developed a GUI-based quiz application using Tkinter, featuring:</p>
+      <ul>
+        <li>Multiple pages with Next/Back navigation</li>
+        <li>Radio buttons for MCQ selection</li>
+        <li>Live score tracking</li>
+        <li>Final result display after last question</li>
+      </ul>
+      <p><strong>Technologies used:</strong> Python, Tkinter</p>
+      <button class="download-link" onclick="toggleCode()">Show/Hide Quiz App Code</button>
+      <pre id="quizCode" style="display: none;">
+import tkinter as tk
+from tkinter import messagebox
+
+score = 0
+
+questions = [
+    ("What is the capital of France?", ["Paris", "London", "Berlin", "Madrid"], "Paris"),
+    ("Which language is used for web apps?", ["Python", "HTML", "C++", "Java"], "HTML"),
+    ("Who developed Python?", ["Dennis Ritchie", "Guido van Rossum", "Bjarne Stroustrup", "James Gosling"], "Guido van Rossum")
+]
+
+def check_answer(selected, correct):
+    global score
+    if selected == correct:
+        score += 1
+
+def quiz_page(index):
+    if index >= len(questions):
+        show_result()
+        return
+
+    for widget in root.winfo_children():
+        widget.destroy()
+
+    question, options, answer = questions[index]
+
+    tk.Label(root, text=question, font=("Arial", 16)).pack(pady=20)
+    selected_option = tk.StringVar()
+
+    for option in options:
+    
+        tk.Radiobutton(root, text=option, variable=selected_option, value=option, font=("Arial", 14)).pack(anchor="w")
+
+    def next_question():
+        check_answer(selected_option.get(), answer)
+        quiz_page(index + 1)
+
+    tk.Button(root, text="Next", command=next_question).pack(pady=20)
+
+def show_result():
+    for widget in root.winfo_children():
+        widget.destroy()
+    tk.Label(root, text=f"Your Score: {score}/{len(questions)}", font=("Arial", 18)).pack(pady=20)
+
+root = tk.Tk()
+root.title("Quiz App")
+root.geometry("500x400")
+quiz_page(0)
+root.mainloop()
+      </pre>
+    </div>
+
+    <h2>Contact</h2>
+    <div class="card">
+      <p>Email: ketziayakanagaraj2001@gmail.com</p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/ketziaya-kanagaraj-44847b1aa" target="_blank">linkedin.com/in/ketziaya-kanagaraj</a></p>
+      <a class="download-link" href="KETZIAYA KANAGARAJ_updated.pdf" download>Download Resume (PDF)</a>
+    </div>
+  </section>
+
+  <script>
+    function toggleCode() {
+      const code = document.getElementById('quizCode');
+      code.style.display = code.style.display === 'none' ? 'block' : 'none';
+    }
+  </script>
+
+</body>
+</html>
